@@ -12,7 +12,7 @@ body{
     background-color: darkgray;
     align-content: center;
     margin-left: 250px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     border-radius: 10px;
     height:670px
     
@@ -48,7 +48,7 @@ h2{
 }
 
 .form{
-    padding: 70px;
+    padding: 60px;
     background-color: rgb(62, 62, 105);
     margin: 10px;
     color: white;

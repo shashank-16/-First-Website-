@@ -9,15 +9,39 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet"  href="reg.css">
+    <!-- <script>
+        function myFunction() {
+        alert("Registration Sucessfull!");
+        }
+    </script> -->
 </head>
 <body>
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark" id="nv">
+<div class="navbar-header" style="margin-left: 30px;">
+      <a class="navbar-brand" href="#">Srank Portal</a>
+    </div>
+  <ul class="navbar-nav"  style= "padding-left: 50px;">
+    <li class="nav-item active">
+      <a class="nav-link" href="pagalpanti.php">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="ABOUTUS.HTML">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Previous</a>
+    </li>
+  </ul>
+</nav>
+
+
+
     <h2 id="wel">WELCOME</h2>                                   
-        <form class="col-6 offset-3 form-group  "action="practise_project.php" method="POST">
+        <!-- <form class="col-6 offset-3 form-group" action="practise_project.php" onclick="myFunction()"  method="POST"> -->
         
-        <div class="row">
+        <!-- <div class="row">
             <div class="" id="colm">
-                <div class="regi">
-                    <form class="form-group " action="practise_project.php" method="POST">
+                <div class="regi"> -->
+                    <form class=" col-6 offset-3 form-group " action="practise_project.php" onsubmit="myFunction()" method="POST">
                         <h2 class="cc">
                             Registration
                         </h2>
@@ -51,12 +75,17 @@
                             </div>
                             
                         </div>
+                        <button type="submit" class="btn-sm btnn" onclick="myfunction()">Register</button>
                     </form>
-                    <button type="submit" class= "btn-sm btnn">Register</button>
-                </div>
+                <!-- </div>
             </div>
-        </div>
-    </form>
+        </div> -->
+    <!-- </form> -->
+    <script>
+        function myFunction() {
+        alert("Registration Sucessful.....!");
+        }
+    </script>
 </body>
 </html>
 
